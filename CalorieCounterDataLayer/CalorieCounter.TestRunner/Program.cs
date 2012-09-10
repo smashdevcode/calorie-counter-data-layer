@@ -12,7 +12,7 @@ namespace CalorieCounter.TestRunner
     {
         static void Main(string[] args)
         {
-            var repository = new Repository();
+            var repository = new Repository(true);
 
             repository.AddUser(new User()
             {
